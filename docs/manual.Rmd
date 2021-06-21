@@ -8,7 +8,9 @@ output:
 fontsize: 11pt
 geometry: a4paper,left=3.5cm,right=3.5cm,top=3.5cm,bottom=4cm
 header-includes:
-  #\usepackage{longtable}
+  \usepackage{longtable}
+  \usepackage{multirow}
+  \usepackage{afterpage}
   \renewcommand{\contentsname}{Kazalo}
   \renewcommand{\figurename}{Slika}
   \renewcommand{\tablename}{Tabela}
@@ -262,6 +264,175 @@ knitr::include_graphics("../images/zotero16.png")
 
 Sedaj je dokument shranjen na oblaku in dostopen avtorjem, ki jih povabite. To storite v desnem panelu (če ga ne vidite, ponovno kliknite na gumb _"Share"_ ali _"Deli"_ zgoraj desno), tako da vnesete njihove @gov.si e-mail naslove in prejeli bodo vabilo. 
 
-# Priloga A: Obvezna polja za pravilen vnos referenc   {-}
+\newpage
 
-[...]
+# Priloga A: Obvezna polja za pravilen vnos referenc   {-}
+\renewcommand{\arraystretch}{1.2}
+
+
+\begin{table}[ht]
+\caption{Knjige in e-knjige}
+
+\centering
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.15\textwidth}p{.6\textwidth}}
+
+\hline
+Tip gradiva & Vrsta vnosa & obvezna polja \\
+\hline
+
+knjiga z enim ali več avtorji& knjiga& naslov, avtor, datum, izdajatelj, kraj\\
+\hline
+knjiga z enim urednikom& knjiga& naslov, urednik, datum, izdajatelj, kraj\\
+\hline
+knjiga brez avtorja & knjiga & naslov, datum, izdajatelj, kraj\\
+\hline
+knjiga: poglavje & odsek knjige & naslov, avtor, urednik ali avtor knjige (če je drug), naslov knjige, datum, izdajatelj, kraj\\
+\hline
+e-knjiga & knjiga & naslov, avtor, datum, url\\
+\hline
+\end{longtable}
+\end{table}
+
+
+\begin{table}[ht]
+\caption{Prispevki v zborniku }
+
+\centering
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.15\textwidth}p{.6\textwidth}}
+
+\hline
+Tip gradiva & Vrsta vnosa & obvezna polja \\
+\hline
+prispevek v zborniku & konferenčni članek & naslov, avtor, urednik, datum, naslov zapisnika razprave,  kraj, izdajatelj\\
+\hline
+prispevek v zborniku: elektronski & konferenčni članek & naslov, avtor, urednik, datum, naslov zapisnika razprave,  kraj, izdajatelj, url\\
+\hline
+\end{longtable}
+\end{table}
+
+\newpage
+
+
+\begin{table}[ht]
+
+\caption{Članki v revijah, časnikih in samostojni članki}
+\centering
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.15\textwidth}p{.6\textwidth}}
+
+\hline
+Tip gradiva & Vrsta vnosa & obvezna polja \\
+\hline
+
+članek v tiskani reviji & strokovni članek & naslov, avtor, publikacija, letnik, številka, strani, datum\\
+\hline
+avtorski članek v UMAR reviji oz. publikaciji&   poročilo & naslov, avtor, številka poročila (letnik in številka), vrsta poročila (npr. Delovni zvezek), kraj, ustanova, datum\\
+\hline
+članek, ki je hkrati sam po sebi  strokovna revija/publikacija & poročilo & naslov, avtor (=UMAR), številka poročila, kraj, ustanova, datum\\
+\hline
+Članek v reviji: e-članki v bazah & X & \emph{Ta opcija ne obstaja v APA: če je strokovni članek z revijo, letnikom in številno, se ne dodaja URL-ja. Če dodaš DOI, pa se bo v bibliografiji naredil link na doi.org.}\\
+\hline
+\multirow{2}{*}{Samostojen e-članek} 
+& revijalni članek & naslov, avtor, publikacija, datum, URL, (letnik, številka)\\
+& objava na blogu & naslov, avtor, naslov bloga, datum, URL, dostopano \\
+\hline
+Časnik: tiskano & časopisni članek & naslov, avtor, publikacija, datum \\
+\hline
+\multirow{2}{3cm}{Časnik: internetna stran} 
+& revijalni članek & naslov, avtor, publikacija, datum, URL, (letnik, številka)\\
+& objava na blogu & naslov, avtor, naslov bloga, datum, URL, dostopano \\
+
+\hline
+\end{longtable}
+\end{table}
+
+
+\begin{table}[h]
+\caption{Podatkovne baze}
+
+\centering
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.15\textwidth}p{.6\textwidth}}
+
+\hline
+Tip gradiva & Vrsta vnosa & obvezna polja \\
+\hline
+Podatkovna baza & poročilo & naslov, avtor (npr. SURS), kraj, izdajatelj (npr. Statistični urad RS), datum, URL \\
+\hline
+Podatkovni portal & poročilo & naslov, avtor, kraj, izdajatelj, datum, URL \\
+\hline
+Metodološko pojasnilo podatkovnega vira & poročilo & naslov, avtor, kraj, izdajatelj, datum, URL\\
+
+\hline
+Natančen sklic na področje ali raziskavo &  poročilo & naslov, avtor, kraj, izdajatelj, datum, URL\\
+\hline
+\end{longtable}
+\end{table}
+
+
+
+\begin{table}[h]
+\caption{Raznovrstne publikacije ministrstev, poročila, ...}
+
+\centering
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.15\textwidth}p{.6\textwidth}}
+
+\hline
+Tip gradiva & Vrsta vnosa & obvezna polja \\
+\hline
+članek/zapis na spletni strani ministrstva & dokument & naslov, avtor (npr. MDDSZ), izdajatelj (npr. Ministrstvo za DDSZEM.. ), datum, URL \\
+\hline
+pravila, navodila, poročila & dokument & naslov, avtor (npr. MDDSZ), izdajatelj (npr. Ministrstvo za DDSZEM.. ), datum, URL \\
+\hline
+\end{longtable}
+\end{table}
+
+
+
+\begin{table}[h]
+\caption{Internet, spletne strani, ...}
+
+\centering
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.15\textwidth}p{.6\textwidth}}
+
+\hline
+Tip gradiva & Vrsta vnosa & obvezna polja \\
+\hline
+spletna stran brez avtorja & spletna stran & \emph{Uporabi vtičnik na spletni strani!}\\
+\hline
+
+\end{longtable}
+\end{table}
+
+\newpage
+
+
+# Priloga B: Vnos posameznih polj   {-}
+
+\begin{table}[ht]
+\centering
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{.75\textwidth}}
+
+\hline
+Ime polja & Posebnosti \\
+\hline
+Citation Key & Se izpolni samodejno, lahko igrnoriraš  \\
+
+Vrsta vnosa & Izbira iz menija. Najbolj običajne opcije so: strokovni članek, knjiga, poročilo. Od izbire je odvisno katera ostala polja so na voljo in kako bo referenca zapisana v bibliografiji. Glej Prilogo A za podrobnosti. \\
+
+Avtor (...) & S klikom na puščico na levi lahko izbiramo med različnimi opcijami: avtor, urednik, ... Najprej vnesete priimek, nato vejico in ime. Lahko vnesete tudi priimek pritisnete tabulator in nato ime. S klikom na siv plus na desni strani se odpre nova vrstica za dodatne avtorje/urednike. \\
+
+Povzetek & Povzetek (abstract) se lahko avtomatično prenese pri uvozu reference. Ni relevantno za citiranje. \\
+
+Publikacija & Naslov strokovne revije (journal) v kateri je članek objavljen \\
+Letnik in številka & Samo pri strokovnih člankih, letnik in številka revije. \\
+Strani & Strani od-do v reviji ali knjigi, kjer se nahaja članek ali odsek knjige (poglavje). \\ 
+Datum & Običajno zadostuje letnica, razen npr. pri časopisnih člankih. \\
+DOI & Se vedno izpiše kot link. \\
+URL & Internetni naslov, kjer je vir dostopen. \\
+Dostopano & Datum, ko je bil vir dostopen na zgornjem naslovu. \\
+Kraj & Se nanaša na izdajatelja (založnika) ali ustanovo.\\
+Izdajatelj & Izdajatelj oz. založnik \\
+
+\hline
+
+\end{tabular}
+\end{table}

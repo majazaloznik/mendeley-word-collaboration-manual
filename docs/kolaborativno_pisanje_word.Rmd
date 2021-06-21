@@ -74,6 +74,3 @@ Znotraj dokumenta lahko kot običajno dodajate tudi komentarje, hkrati pa imate 
 
 
 Ko je dokument končan in urejen in je skupno delo zaključeno, ga urednik prekopira v ustrezno mapo na G: disku. 
-
-
- Lejla Fajić/UMAR/GOV@SVN, Rotija Kmet-Zupančič/UMAR/GOV@SVN, Marta Gregorčič/UMAR/GOV@SVN, Matevž Hribernik/UMAR/GOV@SVN, Urška Brodar/UMAR/GOV@SVN
