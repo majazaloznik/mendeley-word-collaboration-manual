@@ -1,5 +1,5 @@
 ---
-title: "Urejanje referenc z Zotero-m in kolaborativno pisanje v Word-u "
+title: "Urejanje referenc z Zotero-m"
 author: "mz"
 date: "`r format(Sys.time(), '%d.%B %Y')`"
 output:
@@ -8,9 +8,7 @@ output:
 fontsize: 11pt
 geometry: a4paper,left=3.5cm,right=3.5cm,top=3.5cm,bottom=4cm
 header-includes:
-  \usepackage{longtable}
   \usepackage{multirow}
-  \usepackage{afterpage}
   \renewcommand{\contentsname}{Kazalo}
   \renewcommand{\figurename}{Slika}
   \renewcommand{\tablename}{Tabela}
@@ -22,21 +20,15 @@ urlcolor: blue
 
 # Povzetek 
 
-Pred vami so kratka navodila za vzpostavitev delovnega okolja za kolaborativno pisanje v Wordu in urejanje referenc z Zotero-m. 
-
-Namenjena so posameznim avtorjem, skupinam avtorjev in posameznim uredinkom, ki si želijo bistveno olajšati življenje in zmanjšati količino ročnega dela in koordinacije. 
+Pred vami so  navodila za urejanje referenc z Zotero-m. 
 
 Glavne funkcionalnosti, ki jih ta navodila pokrivajo so:
 
 1. organizacija in vodenje lastne knjižnice referenc v namiznem programu;
 2. sodelovanje v skupni knjižnici;
 3. vstavljanje citatov in bibliografij v Microsoft Word;
-4. sodelovanje v skupnem Word dokumentu. 
 
 Navodila predpostavljajo, da delate na službenem računalniku, z vsemi prednostmi in slabostmi, ki jih to prinaša. Če delate v drugem okolju, bo navodila morda potrebno prilagoditi.  
-
-Navodila tudi optimistično predpostavljajo, da imate pri roki svoje Microsoft uporabniško ime in geslo. Če temu slučajno ni tako, vam lahko pomaga Saša.  
-
 
 # Zotero
 
@@ -118,10 +110,12 @@ knitr::include_graphics("../images/zotero2.png")
 
 3. Na zavihku _Cite_ izberite stil citiranja. Na UMAR-ju uporabljamo APA, toda ne najnovejšega, temveč 6. edicijo brez ampersanda (znaka &). Ta stil ni med osnovnimi, ki jih imate na izbiro, Zato ga morate najprej prenesti tako da kliknete na _"Get additional styles"_ in ga potem poiskati, najlažje tako da iščete besedo "ampersand" in potem izberete _American Psychological Association 6th edition (no ampersand)_. 
 
+Na istem zavihu tudi obkljukajte možnost "Include URLs of paper articles in references". 
 
 ```{r, echo = FALSE}
 knitr::include_graphics("../images/zotero3.png")
 ```
+
 
 4. Po želji lahko spremenite tudi jezik v slovenščino tako da pod _Edit/Preferences_ izberete zavihek _Advanced_ in pod _Language_ **s pomočjo miške, ne tipkovnice** izberete slovenščino - program se bo ponovno zagnal za uveljavitev sprememb. 
 
@@ -222,62 +216,69 @@ _To je to!_
 _Reference in bibliografija se vse samodejno posodabljajo vsakič, ko vnesete novo referenco. S klikom na gumb "Refresh" pa lahko posodobite stanje kadar želite._
 
 
-# Kolaborativno pisanje v Wordu
-
-Za zadnji korak boste potrebovali svoje Microsoft uporabniško ime in geslo (geslo za aplikacijo Maximo). Če se je ne spomnite, pošljite e-pošto na ekc@gov.si in prosite za ponastavitev gesla. 
-
-## Setup 
-
-### Navodila za so-avtorje
-
-Prejeli boste e-mail z zadevo npr."Maja Založnik shared "test" with you", ki ga odprete in kliknete na gumb _"Open"_. Odprl se bo brskalnik in morali boste vnesti svoje uporabniško ime in geslo. 
-
-Word datoteka v skupni rabi se vam je zdaj odprla v brskalniku v tako imenovanem "Online Wordu". Online Word deluje zelo podobno kot Google docs in je zelo uporaben, vendar ima manj funkcionalnosti kot namizna aplikacija Word: predvsem v njem ne dela vtičnik za Zotero. 
-
-Zato morate deljeno datoteko odpreti v namizni aplikaciji, tako kliknete na 
-_"Editing/Open in Desktop App"_ oz. _"Urejanje/Odpri v namizni aplikaciji"_ 
-![](../images/zotero12.png){width=50%} ![](../images/zotero13.png){width=60%}
-
-Tako imate datoteko odprto v svojem Word dokumentu, kar pomeni, da dostopate do Zotero vtičnika, hkrati pa na isti datoteki lahko hkrati dela več ljudi naenkrat. 
-
-S klikom na gumb _"Share"_ ali _"Deli"_ zgoraj desno, boste na desni videli kdo vse sodeluje na dokumentu.
-
-```{r, echo = FALSE}
-knitr::include_graphics("../images/zotero14.png")
-```
-
-Sočasno delo v praksi poteka tako, da je odstavek, ki ga nekdo ureja, "zaklenjen" za ostale, tako da zaradi rahlega zamika ne bi prišlo do navzkrižnega dela. Seveda je tudi pri tej obliki dela mogoče uporabljati sledenje spremembam, komentiranje in vse ostale funkcionalnosti Worda, ki ste jih že navajeni. 
-
-### Navodila za urednike
-
-Če kot "lastnik" dokumenta, želite k delu na njem povabiti druge avtorje, ga boste morali najprej shraniti na OneDrive. Najlažje to naredite tako, da v dokumentu samem kliknete na gumb _"Share"_ ali _"Deli"_ zgoraj desno, nakar boste pozvani, da dokument shranite v oblaku.
-
-```{r, echo = FALSE}
-knitr::include_graphics("../images/zotero15.png")
-```
-
-Tam izberite _"One Drive - Ministrstvo za javno upravo"_ in shranite dokument tja. 
-
-```{r, echo = FALSE}
-knitr::include_graphics("../images/zotero16.png")
-```
-
-Sedaj je dokument shranjen na oblaku in dostopen avtorjem, ki jih povabite. To storite v desnem panelu (če ga ne vidite, ponovno kliknite na gumb _"Share"_ ali _"Deli"_ zgoraj desno), tako da vnesete njihove @gov.si e-mail naslove in prejeli bodo vabilo. 
-
 \newpage
 
-# Priloga A: Obvezna polja za pravilen vnos referenc   {-}
+
+# Priloga A: Vnos posameznih polj   {-}
 \renewcommand{\arraystretch}{1.2}
 
+\begin{table}[h]
+\centering
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{.75\textwidth}}
+
+\hline
+Ime polja & Posebnosti \\
+\hline
+
+Vrsta vnosa & Izbira iz menija. Najbolj običajne opcije so: strokovni članek, knjiga, poročilo. Od izbire je odvisno katera ostala polja so na voljo in kako bo referenca zapisana v bibliografiji. Glej Prilogo B za podrobnosti za posamezne vrste referenc. \\
+\hline
+Avtor (...) & S klikom na puščico na levi lahko izbiramo med različnimi opcijami: avtor, urednik, ... Najprej vnesete priimek, nato vejico in ime. Lahko vnesete tudi priimek pritisnete tabulator in nato ime. S klikom na siv plus na desni strani se odpre nova vrstica za dodatne avtorje/urednike. \\
+\hline
+Povzetek & Povzetek (abstract) se lahko avtomatično prenese pri uvozu reference. Ni relevantno za citiranje. \\
+\hline
+Publikacija & Naslov strokovne revije (journal) v kateri je članek objavljen \\
+\hline
+Letnik in številka & Samo pri strokovnih člankih: letnik in številka revije. \\
+\hline
+Številka poročila & Samo pri poročilih: številka (ali letnik in številka) poročila. \\
+\hline
+Strani & Strani od-do v reviji ali knjigi, kjer se nahaja članek ali odsek knjige (poglavje). \\ 
+\hline
+Datum & Običajno zadostuje letnica, razen npr. pri časopisnih člankih. \\
+\hline
+
+DOI & Se vedno izpiše kot link. \\
+\hline
+
+URL & Internetni naslov, kjer je vir dostopen. \\
+\hline
+Dostopano & Datum, ko je bil vir dostopen na zgornjem naslovu. \\
+\hline
+Kraj & Se nanaša na izdajatelja (založnika) ali ustanovo.\\
+\hline
+Izdajatelj & Izdajatelj oz. založnik \\
+\hline
+Ustanova & Ustanova, ki je izdala publikacijo ali organizirala dogodek\\
+\hline
+Vrsta & Pri rokopisih: "neobjavljeno", pri predstavitvah: "konferenca" ali "okrogla miza" \\
+\hline
+Dodatno & Pri predstavitvah: ime organizatorja oziroma institucije \\
+\hline
+
+\end{tabular}
+\end{table}
+
+\newpage
+# Priloga B: Obvezna polja za pravilen vnos referenc   {-}
 
 \begin{table}[ht]
 \caption{Knjige in e-knjige}
 
 \centering
-\begin{longtable}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.15\textwidth}p{.6\textwidth}}
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.2\textwidth}p{.55\textwidth}}
 
 \hline
-Tip gradiva & Vrsta vnosa & obvezna polja \\
+Tip gradiva & Vrsta vnosa & Obvezna polja \\
 \hline
 
 knjiga z enim ali več avtorji& knjiga& naslov, avtor, datum, izdajatelj, kraj\\
@@ -290,149 +291,153 @@ knjiga: poglavje & odsek knjige & naslov, avtor, urednik ali avtor knjige (če j
 \hline
 e-knjiga & knjiga & naslov, avtor, datum, url\\
 \hline
-\end{longtable}
+\end{tabular}
 \end{table}
 
 
 \begin{table}[ht]
 \caption{Prispevki v zborniku }
-
 \centering
-\begin{longtable}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.15\textwidth}p{.6\textwidth}}
-
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.2\textwidth}p{.55\textwidth}}
 \hline
-Tip gradiva & Vrsta vnosa & obvezna polja \\
+Tip gradiva & Vrsta vnosa & Obvezna polja \\
 \hline
 prispevek v zborniku & konferenčni članek & naslov, avtor, urednik, datum, naslov zapisnika razprave,  kraj, izdajatelj\\
 \hline
 prispevek v zborniku: elektronski & konferenčni članek & naslov, avtor, urednik, datum, naslov zapisnika razprave,  kraj, izdajatelj, url\\
 \hline
-\end{longtable}
+\end{tabular}
 \end{table}
 
-\newpage
-
-
-\begin{table}[ht]
-
+\begin{table}[h]
 \caption{Članki v revijah, časnikih in samostojni članki}
 \centering
-\begin{longtable}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.15\textwidth}p{.6\textwidth}}
-
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.2\textwidth}p{.55\textwidth}}
 \hline
-Tip gradiva & Vrsta vnosa & obvezna polja \\
+Tip gradiva & Vrsta vnosa & Obvezna polja \\
 \hline
-
 članek v tiskani reviji & strokovni članek & naslov, avtor, publikacija, letnik, številka, strani, datum\\
 \hline
-avtorski članek v UMAR reviji oz. publikaciji&   poročilo & naslov, avtor, številka poročila (letnik in številka), vrsta poročila (npr. Delovni zvezek), kraj, ustanova, datum\\
+avtorski članek v UMAR reviji oz. publikaciji&   poročilo & naslov, avtor, številka poročila ( = letnik in številka), vrsta poročila ( = "delovni zvezek"), kraj, ustanova, datum\\
 \hline
-članek, ki je hkrati sam po sebi  strokovna revija/publikacija & poročilo & naslov, avtor (=UMAR), številka poročila, kraj, ustanova, datum\\
+članek kot strokovna revija/publikacija & poročilo & naslov, avtor (=UMAR), številka poročila, kraj, ustanova, datum, (URL) \\
 \hline
-Članek v reviji: e-članki v bazah & X & \emph{Ta opcija ne obstaja v APA: če je strokovni članek z revijo, letnikom in številno, se ne dodaja URL-ja. Če dodaš DOI, pa se bo v bibliografiji naredil link na doi.org.}\\
+Članek v reviji: e-članki v bazah & strokovni članek & naslov, avtor, publikacija, letnik, številka, strani, datum, URL\\
 \hline
-\multirow{2}{*}{Samostojen e-članek} 
-& revijalni članek & naslov, avtor, publikacija, datum, URL, (letnik, številka)\\
-& objava na blogu & naslov, avtor, naslov bloga, datum, URL, dostopano \\
+Samostojen e-članek
+& poročilo & naslov, avtor, (vrsta = "kratka analiza"), (kraj), (ustanova), datum, URL\\
 \hline
 Časnik: tiskano & časopisni članek & naslov, avtor, publikacija, datum \\
 \hline
 \multirow{2}{3cm}{Časnik: internetna stran} 
-& revijalni članek & naslov, avtor, publikacija, datum, URL, (letnik, številka)\\
-& objava na blogu & naslov, avtor, naslov bloga, datum, URL, dostopano \\
-
+& revijalni članek & naslov, avtor, publikacija, datum, URL, (letnik), (številka)\\
 \hline
-\end{longtable}
+\end{tabular}
 \end{table}
 
 
 \begin{table}[h]
 \caption{Podatkovne baze}
-
 \centering
-\begin{longtable}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.15\textwidth}p{.6\textwidth}}
-
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.2\textwidth}p{.55\textwidth}}
 \hline
-Tip gradiva & Vrsta vnosa & obvezna polja \\
+Tip gradiva & Vrsta vnosa & Obvezna polja \\
 \hline
-Podatkovna baza & poročilo & naslov, avtor (npr. SURS), kraj, izdajatelj (npr. Statistični urad RS), datum, URL \\
+Podatkovna baza & poročilo & naslov, avtor (npr. SURS), kraj, ustanova (npr. Statistični urad RS), datum, URL \\
 \hline
-Podatkovni portal & poročilo & naslov, avtor, kraj, izdajatelj, datum, URL \\
+Podatkovni portal & poročilo & naslov, avtor, kraj, ustanova, datum, URL \\
 \hline
-Metodološko pojasnilo podatkovnega vira & poročilo & naslov, avtor, kraj, izdajatelj, datum, URL\\
-
+Metodološko pojasnilo podatkovnega vira & poročilo & naslov, avtor, kraj, ustanova, datum, URL\\
 \hline
-Natančen sklic na področje ali raziskavo &  poročilo & naslov, avtor, kraj, izdajatelj, datum, URL\\
+Natančen sklic na področje ali raziskavo &  poročilo & naslov, avtor, kraj, ustanova, datum, URL\\
 \hline
-\end{longtable}
+\end{tabular}
 \end{table}
 
 
 
 \begin{table}[h]
 \caption{Raznovrstne publikacije ministrstev, poročila, ...}
-
 \centering
-\begin{longtable}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.15\textwidth}p{.6\textwidth}}
-
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.2\textwidth}p{.55\textwidth}}
 \hline
-Tip gradiva & Vrsta vnosa & obvezna polja \\
+Tip gradiva & Vrsta vnosa & Obvezna polja \\
 \hline
-članek/zapis na spletni strani ministrstva & dokument & naslov, avtor (npr. MDDSZ), izdajatelj (npr. Ministrstvo za DDSZEM.. ), datum, URL \\
+članek/zapis na spletni strani ministrstva & poročilo & naslov, avtor (npr. MDDSZ), kraj, ustanova (npr. Ministrstvo za... ), datum, URL \\
 \hline
-pravila, navodila, poročila & dokument & naslov, avtor (npr. MDDSZ), izdajatelj (npr. Ministrstvo za DDSZEM.. ), datum, URL \\
+pravila, navodila, poročila & poročilo & naslov, avtor (npr. MDDSZ), kraj, ustanova (npr. Ministrstvo za... ), datum, URL \\
 \hline
-\end{longtable}
+\end{tabular}
 \end{table}
+
 
 
 
 \begin{table}[h]
 \caption{Internet, spletne strani, ...}
-
 \centering
-\begin{longtable}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.15\textwidth}p{.6\textwidth}}
-
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.2\textwidth}p{.55\textwidth}}
 \hline
-Tip gradiva & Vrsta vnosa & obvezna polja \\
+Tip gradiva & Vrsta vnosa & Obvezna polja \\
 \hline
-spletna stran brez avtorja & spletna stran & \emph{Uporabi vtičnik na spletni strani!}\\
+spletna stran & spletna stran & \emph{Uporabi vtičnik na spletni strani!} naslov, url, (avtor), (datum), (kratek naslov)\\
 \hline
-
-\end{longtable}
-\end{table}
-
-\newpage
-
-
-# Priloga B: Vnos posameznih polj   {-}
-
-\begin{table}[ht]
-\centering
-\begin{tabular}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{.75\textwidth}}
-
+spletna stran brez avtorja/datuma & spletna stran & \emph{Uporabi vtičnik na spletni strani!} naslov, url, (avtor), (datum), (kratki naslov)\\
 \hline
-Ime polja & Posebnosti \\
-\hline
-Citation Key & Se izpolni samodejno, lahko igrnoriraš  \\
-
-Vrsta vnosa & Izbira iz menija. Najbolj običajne opcije so: strokovni članek, knjiga, poročilo. Od izbire je odvisno katera ostala polja so na voljo in kako bo referenca zapisana v bibliografiji. Glej Prilogo A za podrobnosti. \\
-
-Avtor (...) & S klikom na puščico na levi lahko izbiramo med različnimi opcijami: avtor, urednik, ... Najprej vnesete priimek, nato vejico in ime. Lahko vnesete tudi priimek pritisnete tabulator in nato ime. S klikom na siv plus na desni strani se odpre nova vrstica za dodatne avtorje/urednike. \\
-
-Povzetek & Povzetek (abstract) se lahko avtomatično prenese pri uvozu reference. Ni relevantno za citiranje. \\
-
-Publikacija & Naslov strokovne revije (journal) v kateri je članek objavljen \\
-Letnik in številka & Samo pri strokovnih člankih, letnik in številka revije. \\
-Strani & Strani od-do v reviji ali knjigi, kjer se nahaja članek ali odsek knjige (poglavje). \\ 
-Datum & Običajno zadostuje letnica, razen npr. pri časopisnih člankih. \\
-DOI & Se vedno izpiše kot link. \\
-URL & Internetni naslov, kjer je vir dostopen. \\
-Dostopano & Datum, ko je bil vir dostopen na zgornjem naslovu. \\
-Kraj & Se nanaša na izdajatelja (založnika) ali ustanovo.\\
-Izdajatelj & Izdajatelj oz. založnik \\
-
-\hline
-
 \end{tabular}
 \end{table}
+
+
+\begin{table}[h]
+\caption{Sodbe in zakonodaja}
+\centering
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.2\textwidth}p{.55\textwidth}}
+\hline
+Tip gradiva & Vrsta vnosa & Obvezna polja \\
+\hline
+sodba & primer & ime primera, datum odločbe, seznamska številka  \\
+\hline
+zakon, predpis & statut & ime akta, javna pravna številka, datum uveljavitve, kratki naslov \\
+\hline
+resolucija & statut & ime akta, javna pravna številka, datum uveljavitve, kratki naslov \\
+\hline
+\end{tabular}
+\end{table}
+
+
+\begin{table}[h]
+\caption{Raziskovalna poročila}
+\centering
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.2\textwidth}p{.55\textwidth}}
+\hline
+Tip gradiva & Vrsta vnosa & Obvezna polja \\
+\hline
+tiskano poročilo & poročilo & naslov, avtor, (številka poročila), (vrsta poročila), kraj, ustanova, datum \\
+\hline
+elektronsko poročilo & poročilo & naslov, avtor, (številka poročila), (vrsta poročila), kraj, ustanova, datum, url \\
+\hline
+\end{tabular}
+\end{table}
+
+
+
+\begin{table}[h]
+\caption{Neobjavljena dela}
+\centering
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.2\textwidth}p{.55\textwidth}}
+\hline
+Tip gradiva & Vrsta vnosa & Obvezna polja \\
+\hline
+v tisku & po potrebi & glede na vrsto vnosa + datum = "v tisku" \\
+\hline
+neobjavljeno delo & rokopis & naslov, avtor, vrsta = "Neobjavljeno"  \\
+\hline
+konference, okrogle mize, dogodki & predstavitev & naslov, predstavitelj, (vrsta = "konferenca", "okrogla miza"), datum, kraj, ime srečanja, (dodatno = organizator/institucija)\\
+\hline
+\end{tabular}
+\end{table}
+
+
+
+\newpage
+\newpage

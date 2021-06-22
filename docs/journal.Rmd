@@ -1,0 +1,27 @@
+---
+title: "journal"
+author: "mz"
+date: "`r format(Sys.time(), '%d.%B %Y')`"
+output:
+        bookdown::pdf_document2:
+        toc_depth: 3
+fontsize: 11pt
+geometry: a4paper,left=3.5cm,right=3.5cm,top=3.5cm,bottom=4cm
+header-includes:
+        \usepackage{longtable}
+        \usepackage{multirow}
+        \usepackage{afterpage}
+        \renewcommand{\contentsname}{Kazalo}
+        \renewcommand{\figurename}{Slika}
+        \renewcommand{\tablename}{Tabela}
+urlcolor: blue
+---
+        
+Popravki APA 6th no ampersand.
+
+Report: zbriši "retreived from Publisher website" 
+
+Bill: year before number, change delimiters from , to .
+
+Konferenca: note za ime ustanove, ki jo organizira
+
