@@ -25,3 +25,6 @@ Bill: year before number, change delimiters from , to .
 
 Konferenca: note za ime ustanove, ki jo organizira
 
+Sicer pa je v [Zotero/styles](https://www.zotero.org/styles?q=umar)
+
+23.6. sprejet  [pull request](https://github.com/citation-style-language/styles/pull/5520)
