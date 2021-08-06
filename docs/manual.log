@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.21)  22 JUN 2021 16:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.8.6)  6 AUG 2021 16:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **manual.tex
 (./manual.tex
 LaTeX2e <2021-06-01> patch level 1
-L3 programming layer <2021-06-18>
+L3 programming layer <2021-07-12>
 (c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.c
 ls
 Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
@@ -363,7 +363,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip52
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 48.
+Package hyperref Info: Option `colorlinks' set `true' on input line 47.
 
 (c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/geometry/geome
 try.sty
@@ -491,32 +491,46 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@dima=\skip63
 \bigstrutjot=\dimen181
 )
+(c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancy
+hdr.sty
+Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and foote
+rs
+\f@nch@headwidth=\skip64
+\f@nch@O@elh=\skip65
+\f@nch@O@erh=\skip66
+\f@nch@O@olh=\skip67
+\f@nch@O@orh=\skip68
+\f@nch@O@elf=\skip69
+\f@nch@O@erf=\skip70
+\f@nch@O@olf=\skip71
+\f@nch@O@orf=\skip72
+)
 (c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3ba
 ckend-pdftex.def
-File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count295
 \l__pdf_internal_box=\box60
 ) (./manual.aux)
 \openout1 = `manual.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 94.
-LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
 
 (c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/epstopdf-pkg/e
 pstopdf-base.sty
@@ -529,7 +543,7 @@ stopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 94.
+Package hyperref Info: Link coloring ON on input line 86.
 
 (c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/namer
 ef.sty
@@ -545,9 +559,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count296
 )
-LaTeX Info: Redefining \ref on input line 94.
-LaTeX Info: Redefining \pageref on input line 94.
-LaTeX Info: Redefining \nameref on input line 94.
+LaTeX Info: Redefining \ref on input line 86.
+LaTeX Info: Redefining \pageref on input line 86.
+LaTeX Info: Redefining \nameref on input line 86.
 (./manual.out) (./manual.out)
 \@outlinefile=\write3
 \openout3 = `manual.out'.
@@ -586,40 +600,40 @@ LaTeX Info: Redefining \nameref on input line 94.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
-6.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8
+8.
 (c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
-6.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
+8.
 (c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-96.
+88.
 (c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-96.
+88.
 (c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 96.
+(Font)              <12> on input line 88.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 96.
+(Font)              <8> on input line 88.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 96.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 96.
+(Font)              <6> on input line 88.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 88.
 
 
 (c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.
 fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 96.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 88.
 
 
 (c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.
@@ -635,226 +649,258 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 [1
 
 {c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/p
-dftex.map}] [2]
+dftex.map}]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[2]
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
-79.
+73.
 (c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 182.
+(Font)              <9> on input line 176.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 182.
-<../images/zotero1.png, id=117, 298.86656pt x 139.27031pt>
+(Font)              <5> on input line 176.
+<../images/zotero1.png, id=109, 298.86656pt x 139.27031pt>
 File: ../images/zotero1.png Graphic file (type png)
 <use ../images/zotero1.png>
-Package pdftex.def Info: ../images/zotero1.png  used on input line 201.
+Package pdftex.def Info: ../images/zotero1.png  used on input line 195.
 (pdftex.def)             Requested size: 298.87492pt x 139.2742pt.
-<../images/zotero4.png, id=119, 909.3975pt x 435.87843pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[3 <../images/zotero1.png>]
+<../images/zotero4.png, id=132, 909.3975pt x 435.87843pt>
 File: ../images/zotero4.png Graphic file (type png)
 <use ../images/zotero4.png>
-Package pdftex.def Info: ../images/zotero4.png  used on input line 219.
+Package pdftex.def Info: ../images/zotero4.png  used on input line 213.
 (pdftex.def)             Requested size: 398.3461pt x 190.92912pt.
-[3 <../images/zotero1.png>]
-<../images/zotero2.png, id=141, 242.40562pt x 226.59656pt>
+<../images/zotero2.png, id=133, 242.40562pt x 226.59656pt>
 File: ../images/zotero2.png Graphic file (type png)
 <use ../images/zotero2.png>
-Package pdftex.def Info: ../images/zotero2.png  used on input line 240.
+Package pdftex.def Info: ../images/zotero2.png  used on input line 234.
 (pdftex.def)             Requested size: 242.40501pt x 226.596pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [4 <../images/zotero4.png>]
-<../images/zotero3.png, id=151, 490.08093pt x 397.485pt>
+<../images/zotero3.png, id=146, 475.02469pt x 398.99063pt>
 File: ../images/zotero3.png Graphic file (type png)
 <use ../images/zotero3.png>
-Package pdftex.def Info: ../images/zotero3.png  used on input line 252.
-(pdftex.def)             Requested size: 490.0947pt x 397.49614pt.
+Package pdftex.def Info: ../images/zotero3.png  used on input line 246.
+(pdftex.def)             Requested size: 475.04526pt x 399.0079pt.
 
-Overfull \hbox (91.7561pt too wide) in paragraph at lines 252--253
+Overfull \hbox (76.70667pt too wide) in paragraph at lines 246--247
 [][] 
  []
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [5 <../images/zotero2.png>]
-<../images/zotero19.png, id=159, 191.21437pt x 166.37157pt>
+<../images/zotero19.png, id=154, 191.21437pt x 166.37157pt>
 File: ../images/zotero19.png Graphic file (type png)
 <use ../images/zotero19.png>
-Package pdftex.def Info: ../images/zotero19.png  used on input line 268.
+Package pdftex.def Info: ../images/zotero19.png  used on input line 262.
 (pdftex.def)             Requested size: 191.22556pt x 166.38129pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [6 <../images/zotero3.png>]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 2
-75.
+File: ../images/zotero1.png Graphic file (type png)
+<use ../images/zotero1.png>
+Package pdftex.def Info: ../images/zotero1.png  used on input line 268.
+(pdftex.def)             Requested size: 298.87492pt x 139.2742pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[7 <../images/zotero19.png>]
+<../images/zotero5.png, id=170, 217.5628pt x 72.27pt>
+File: ../images/zotero5.png Graphic file (type png)
+<use ../images/zotero5.png>
+Package pdftex.def Info: ../images/zotero5.png  used on input line 277.
+(pdftex.def)             Requested size: 217.57222pt x 72.2731pt.
+<../images/zotero18.png, id=172, 290.58563pt x 116.68594pt>
+File: ../images/zotero18.png Graphic file (type png)
+<use ../images/zotero18.png>
+Package pdftex.def Info: ../images/zotero18.png  used on input line 297.
+(pdftex.def)             Requested size: 290.5982pt x 116.69098pt.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
+13.
 (c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-<../images/zotero5.png, id=169, 217.5628pt x 72.27pt>
-File: ../images/zotero5.png Graphic file (type png)
-<use ../images/zotero5.png>
-Package pdftex.def Info: ../images/zotero5.png  used on input line 282.
-(pdftex.def)             Requested size: 217.57222pt x 72.2731pt.
-[7 <../images/zotero19.png> <../images/zotero5.png>]
-<../images/zotero18.png, id=179, 290.58563pt x 116.68594pt>
-File: ../images/zotero18.png Graphic file (type png)
-<use ../images/zotero18.png>
-Package pdftex.def Info: ../images/zotero18.png  used on input line 304.
-(pdftex.def)             Requested size: 290.5982pt x 116.69098pt.
-[8 <../images/zotero18.png>]
-<../images/zotero6.png, id=193, 525.46312pt x 124.21407pt>
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[8 <../images/zotero5.png> <../images/zotero18.png>]
+<../images/zotero6.png, id=185, 525.46312pt x 124.21407pt>
 File: ../images/zotero6.png Graphic file (type png)
 <use ../images/zotero6.png>
-Package pdftex.def Info: ../images/zotero6.png  used on input line 332.
+Package pdftex.def Info: ../images/zotero6.png  used on input line 325.
 (pdftex.def)             Requested size: 398.35388pt x 94.16673pt.
-<../images/zotero7.png, id=194, 453.19313pt x 301.125pt>
+<../images/zotero7.png, id=186, 453.19313pt x 301.125pt>
 File: ../images/zotero7.png Graphic file (type png)
 <use ../images/zotero7.png>
-Package pdftex.def Info: ../images/zotero7.png  used on input line 352.
+Package pdftex.def Info: ../images/zotero7.png  used on input line 345.
 (pdftex.def)             Requested size: 453.2335pt x 301.15181pt.
 
-Overfull \hbox (54.89491pt too wide) in paragraph at lines 352--353
+Overfull \hbox (54.89491pt too wide) in paragraph at lines 345--346
 [][] 
  []
 
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [9 <../images/zotero6.png>]
-<../images/zotero8.png, id=205, 459.21562pt x 73.77562pt>
+<../images/zotero8.png, id=200, 459.21562pt x 73.77562pt>
 File: ../images/zotero8.png Graphic file (type png)
 <use ../images/zotero8.png>
-Package pdftex.def Info: ../images/zotero8.png  used on input line 362.
+Package pdftex.def Info: ../images/zotero8.png  used on input line 355.
 (pdftex.def)             Requested size: 398.3582pt x 63.9985pt.
-<../images/zotero9.png, id=206, 550.30594pt x 334.24875pt>
+<../images/zotero9.png, id=201, 550.30594pt x 334.24875pt>
 File: ../images/zotero9.png Graphic file (type png)
 <use ../images/zotero9.png>
-Package pdftex.def Info: ../images/zotero9.png  used on input line 366.
+Package pdftex.def Info: ../images/zotero9.png  used on input line 359.
 (pdftex.def)             Requested size: 398.35281pt x 241.95436pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
 [10 <../images/zotero7.png> <../images/zotero8.png>]
-<../images/zotero10.png, id=214, 562.35094pt x 338.01282pt>
+<../images/zotero10.png, id=209, 562.35094pt x 338.01282pt>
 File: ../images/zotero10.png Graphic file (type png)
 <use ../images/zotero10.png>
-Package pdftex.def Info: ../images/zotero10.png  used on input line 376.
+Package pdftex.def Info: ../images/zotero10.png  used on input line 369.
 (pdftex.def)             Requested size: 398.33665pt x 239.42859pt.
-<../images/zotero11.png, id=216, 220.57407pt x 79.79813pt>
+<../images/zotero11.png, id=211, 220.57407pt x 79.79813pt>
 File: ../images/zotero11.png Graphic file (type png)
 <use ../images/zotero11.png>
-Package pdftex.def Info: ../images/zotero11.png  used on input line 386.
+Package pdftex.def Info: ../images/zotero11.png  used on input line 379.
 (pdftex.def)             Requested size: 220.57352pt x 79.79791pt.
-[11 <../images/zotero9.png> <../images/zotero10.png>] [12 <../images/zotero11.p
-ng>]
-Overfull \hbox (23.99998pt too wide) in paragraph at lines 402--444
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[11 <../images/zotero9.png> <../images/zotero10.png>]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[12 <../images/zotero11.png>]
+Overfull \hbox (35.99997pt too wide) in paragraph at lines 417--433
  [][] 
  []
+
+
+Overfull \hbox (23.99998pt too wide) in paragraph at lines 440--481
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [13]
-Overfull \hbox (35.99997pt too wide) in paragraph at lines 456--473
- [][] 
- []
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
 
-Overfull \hbox (35.99997pt too wide) in paragraph at lines 478--487
- [][] 
- []
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-
-Underfull \hbox (badness 1205) in paragraph at lines 505--506
-[]|\T1/lmr/m/n/10.95 naslov, av-tor, (vrsta = "kratka anal-iza"),
- []
-
-
-Overfull \hbox (35.99997pt too wide) in paragraph at lines 492--513
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (35.99997pt too wide) in paragraph at lines 518--531
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (35.99997pt too wide) in paragraph at lines 536--545
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (35.99997pt too wide) in paragraph at lines 550--559
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 3189) in paragraph at lines 568--569
-[]|\T1/lmr/m/n/10.95 ime primera, da-tum od-lo£be, sez-nam-ska
- []
-
-
-Overfull \hbox (35.99997pt too wide) in paragraph at lines 564--575
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 3623) in paragraph at lines 584--585
-[]|\T1/lmr/m/n/10.95 naslov, av-tor, (²tevilka poro£ila), (vrsta
- []
-
-
-Underfull \hbox (badness 3623) in paragraph at lines 586--587
-[]|\T1/lmr/m/n/10.95 naslov, av-tor, (²tevilka poro£ila), (vrsta
- []
-
-
-Overfull \hbox (35.99997pt too wide) in paragraph at lines 580--589
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (35.99997pt too wide) in paragraph at lines 594--605
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[14] [15] [16] (./manual.aux)
+[14] (./manual.aux)
 Package rerunfilecheck Info: File `manual.out' has not changed.
-(rerunfilecheck)             Checksum: 8949DF569E98E9183A9F8848A1FB5734;2786.
+(rerunfilecheck)             Checksum: EEBE4CD322CC9E752A97AE8FC873F933;2383.
  ) 
 Here is how much of TeX's memory you used:
- 11117 strings out of 480470
- 165222 string characters out of 5896929
- 498589 words of memory out of 5000000
- 28512 multiletter control sequences out of 15000+600000
- 462934 words of font info for 72 fonts, out of 8000000 for 9000
+ 11274 strings out of 480502
+ 167266 string characters out of 5897746
+ 489690 words of memory out of 5000000
+ 28640 multiletter control sequences out of 15000+600000
+ 465959 words of font info for 73 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 60i,11n,66p,523b,422s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,66p,545b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-
 ts1.enc}{c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/
 lm/lm-ec.enc}<c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1
 /public/lm/lmbx10.pfb><c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/fo
 nts/type1/public/lm/lmbx12.pfb><c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texm
 f-dist/fonts/type1/public/lm/lmr10.pfb><c:/Users/mzaloznik/AppData/Roaming/Tiny
-TeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb><c:/Users/mzaloznik/AppData/Roam
-ing/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/Users/mzaloznik/AppD
-ata/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/mzalozn
-ik/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/
-mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:
-/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri1
-0.pfb><c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public
-/lm/lmtt10.pfb>
-Output written on manual.pdf (16 pages, 488608 bytes).
+TeX/texmf-dist/fonts/type1/public/lm/lmr17.pfb><c:/Users/mzaloznik/AppData/Roam
+ing/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr6.pfb><c:/Users/mzaloznik/AppDa
+ta/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/mzalozni
+k/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/Users/m
+zaloznik/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c
+:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmro
+10.pfb><c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/publi
+c/lm/lmtt10.pfb>
+Output written on manual.pdf (14 pages, 496143 bytes).
 PDF statistics:
- 329 PDF objects out of 1000 (max. 8388607)
- 261 compressed objects within 3 object streams
- 95 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 308 PDF objects out of 1000 (max. 8388607)
+ 242 compressed objects within 3 object streams
+ 85 named destinations out of 1000 (max. 500000)
+ 178 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,7 +1,5 @@
 ---
-title: "Urejanje referenc z Zotero-m"
-author: "mz"
-date: "`r format(Sys.time(), '%d.%B %Y')`"
+title: "Urejanje referenc s programom Zotero"
 output:
   bookdown::pdf_document2:
               toc_depth: 3
@@ -12,7 +10,11 @@ header-includes:
   \renewcommand{\contentsname}{Kazalo}
   \renewcommand{\figurename}{Slika}
   \renewcommand{\tablename}{Tabela}
-subtitle: Navodila za urednike in so-avtorje
+  \usepackage{fancyhdr}
+  \pagestyle{fancy}
+  \fancyfoot{}
+  \fancyhead[R]{UMAR -- `r format(Sys.time(), '%e. %B %Y')`}
+  \fancyfoot[R]{\thepage}
 urlcolor: blue
 ---
 
@@ -51,13 +53,15 @@ Pred pričetkom uporabe Zotera morate:
 
 Priporočamo tudi, da si namestite vtičnik za brskalnik, ki vam bo olajšal vnašanje novih virov v vašo knjižnico. 
 
-### Namestitev namiznega orodja Zotero - domači računalnik 
+### Namestitev namiznega orodja Zotero 
 
 _Na službenem računalniku vam bo z namestitvijo pomagala Saša, saj potrebujete administratorske pravice._
 
 1. Iz strani [https://www.zotero.org/download/](https://www.zotero.org/download/) prenesite najnovejšo verzijo programa s klikom na gumb _"Download"_ na levi strani ekrana.
 
-2. Po končanem prenosu dvakrat kliknite na datoteko in sledite navodilom. Pri tem lahko pustite vse privzete nastavitve.
+2. Po končanem prenosu se dogovorite s Sašo, da vam z administratorskim geslom namesti program. 
+
+2+. Če si nameščate program na domačem računalniku, po končanem prenosu dvakrat kliknite na datoteko in sledite navodilom. Pri tem lahko *pustite vse privzete nastavitve*.
 
 ### Registracija na Zotero.org
 
@@ -108,18 +112,18 @@ Ob prvi uporabi Zotera ga morate povezati z vašim računom in nastaviti par nas
 knitr::include_graphics("../images/zotero2.png")
 ```
 
-3. Na zavihku _Cite_ izberite stil citiranja. Na UMAR-ju uporabljamo APA, toda ne najnovejšega, temveč 6. edicijo brez ampersanda (znaka &). Ta stil ni med osnovnimi, ki jih imate na izbiro, Zato ga morate najprej prenesti tako da kliknete na _"Get additional styles"_ in ga potem poiskati, najlažje tako da iščete besedo "ampersand" in potem izberete _American Psychological Association 6th edition (no ampersand)_. 
+3. Na zavihku _Cite_ izberite stil citiranja. Na UMAR-ju uporabljamo hišni stil, ki ga ni med osnovnimi, ki jih imate na izbir. Zato ga morate najprej prenesti, tako da kliknete na _"Get additional styles"_ in ga potem poiskati, najlažje tako da iščete besedo "UMAR" in potem izberete _Urad RS za makroekonomske analize in razvoj (Slovenščina)_. 
 
-Na istem zavihu tudi obkljukajte možnost "Include URLs of paper articles in references". 
+Na istem zavihu tudi obkljukajte možnost "Include URLs of paper articles in references", saj je tudi to del hišnega stila. 
 
 ```{r, echo = FALSE}
 knitr::include_graphics("../images/zotero3.png")
 ```
 
 
-4. Po želji lahko spremenite tudi jezik v slovenščino tako da pod _Edit/Preferences_ izberete zavihek _Advanced_ in pod _Language_ **s pomočjo miške, ne tipkovnice** izberete slovenščino - program se bo ponovno zagnal za uveljavitev sprememb. 
+4. Po želji lahko spremenite tudi jezik v slovenščino tako da pod _Edit/Preferences_ izberete zavihek _Advanced_ in pod _Language_ **s pomočjo miške** izberete slovenščino - program se bo ponovno zagnal za uveljavitev sprememb. 
 
-5. Pod _Advanced_ lahko na zavihku _"Files and folders"_ tudi vidite ali spremenite lokacijo, kamor se shranjujejo vse datoteke v vaši kjnižnici. Privzeta lokacija je C:/Users/<uporabniško ime>/Zotero. ^[Tudi če imate .pdf že shranjen na računalniku, se bo po uvozu reference v Zotero, v to mapo shranila njegova kopija.]
+5. Pod _Advanced_ lahko na zavihku _"Files and folders"_ tudi vidite ali spremenite lokacijo, kamor se shranjujejo vse datoteke v vaši kjnižnici. Privzeta lokacija je `C:/Users/<uporabniško ime>/Zotero.` ^[Tudi če imate .pdf že shranjen na računalniku, se bo po uvozu reference v Zotero, v to mapo shranila njegova kopija.]
 
 ### Uvoz referenc v Zotero
 
@@ -130,10 +134,18 @@ knitr::include_graphics("../images/zotero19.png")
 ```
 
 
-Zapise lahko v Zotero vnašate na različne načine: mogoče najenostavnejši je, da pdf dokument enostavno povlečete v knjižnico in program bo naredil avtomatično ekstrakcijo podatkov in ustvaril zapis. 
+Zapise lahko v Zotero vnašate na različne načine, odvisno od tipa dokumenta in vašega načina dela. 
 
-* Ta metoda ne deluje vedno 100 %, saj temelji na pravilno zavedenih metapodatkih v pdf-ju, _zato vedno preverite podatke_ v desnem okencu in jih po potrebi popravite. (glej Prilogo A za zahtevana polja). 
-* Včasih metoda sploh ne bo delovala, ker Zotero ne bo zaznal nobenih metapodatkov, ali zapisa ne bo našel v katalogih in indeksih. Takrat bo shranil samo pdf kot priponko in v desnem okencu ne boste mogli dodajati metapodatkov. V tem primeru je potrebno ročno dodati zapis tako da z desnim klikom izberete možnost _"Create Parent Item..."_ in potem izbrati možnost _"Manual entry"_. Na desni strani ekrana lahko sedaj urejate referenco in dodate manjkajoče podatke. 
+V spletnem brskalniku imate nameščen tudi Zotero vtičnik, ki ga lahko uporabljate tako za uvoz posameznih pdf dokumentov, kot tudi za uvoz večjega števila referenc, npr. med iskanjem na Google Scholarju ali drugem katalogu. S klikom na ikonico v brskalniku se bo(do) izbran(i) dokument(i) prenesli v vašo knjižnico. Pozor, ikonica se spreminja glede na tip dokumenta (.pdf, spletna stran..).
+
+```{r, echo = FALSE}
+knitr::include_graphics("../images/zotero1.png")
+```
+
+Drug običajen postopek je, da imate pdf dokument na svojem računalniku: potem ga lahko iz Explorerja enostavno _povlečete_ v Zotero knjižnico in program bo naredil avtomatično ekstrakcijo podatkov in ustvaril nov zapis.
+
+Vse te metode ne delujejo vedno 100 %, saj temeljijo na pravilno zavedenih metapodatkih v pdf-ju, _zato jih vedno preverite podatke_ v desnem okencu in jih po potrebi popravite. (glej Prilogo B za zahtevana polja). 
+* Včasih avtomatična metoda sploh ne bo delovala, ker Zotero ne bo zaznal nobenih metapodatkov, ali pa zapisa ne bo našel v svojih katalogih in indeksih. Takrat bo shranil samo pdf kot priponko in v desnem okencu ne boste mogli dodajati metapodatkov. V tem primeru je potrebno ročno dodati zapis tako da z desnim klikom izberete možnost _"Create Parent Item..."_ in potem izbrati možnost _"Manual entry"_. Na desni strani ekrana lahko sedaj urejate referenco in dodate manjkajoče podatke. 
 
 Za _ročni vnos referenc_ kliknete na _"File/New Item"_ na meniju zgoraj desno, ali na ikonico z zelenim plus simbolom. Izberete tip vira in v obrazcu, ki se odpre na desni strani, izpolnite vsa želena polja. 
 
@@ -143,7 +155,6 @@ knitr::include_graphics("../images/zotero5.png")
 
 Ikonica na desni od zelenega plus simbola pa vam omogoča, da vnesete doi ali ISBN številko in pustite Zoteru, da poišče potrebne informacije na ta način. 
 
-V spletnem brskalniku imate nameščen tudi Zotero vtičnik, ki ga lahko uporabljate tako za uvoz posameznih pdf dokumentov, kot tudi za uvoz večjega števila referenc, npr. med iskanjem na Google Scholarju ali drugem katalogu. S klikom na ikonico v brskalniku se bo(do) izbran(i) dokument(i) prenesli v vašo knjižnico. 
 
 Zotero vam sam ne bo preprečil vnosa reference, ki jo že imate v knjižnici, lahko pa s klikom na _"Duplicate Items"_ pod seznamom zbirk v vaši knjižnici vidite, kateri zapisi so podvojeni in jih potem združite s klikom na _"Merge"_. 
 
@@ -184,9 +195,9 @@ S pomočjo vtičnika lahko reference, ki so shranjene Zoteru, neposredno uporabl
 1. Odprete MS Word, kjer poiščete nov zavihek _"Zotero"_ (glej zgornjo sliko) s pomočjo katerega lahko vstavljate reference. 
 
 
-2. Ko v dokumentu prvič kliknete na gumb "Add/Edit Citation" vas Zotero vpraša kateri stil citiranja želite uporabljati. Po dogovoru se za naše publikacije uporablja APA - torej _"American Psychological Association 6th edition (no ampersand)"_ in za jezik seveda izberite slovenščino. 
+2. Ko v dokumentu prvič kliknete na gumb "Add/Edit Citation" vas Zotero vpraša kateri stil citiranja želite uporabljati. Po dogovoru se za naše publikacije uporablja hišni UMAR stil, ki ste ga prej prenesli, torej: _Urad RS za makroekonomske analize in razvoj (Slovenščina)_. 
 
-3. Potem se vam bo odprlo iskalno okence, kamor lahko začnete vpisovati del **naslova**, **avtorjev** ali **letnice** reference, ki jo iščete in na seznamu se vam bodo prikazale reference, ki ustrezajo iskalnemu pogoju. Pri delu v skupnih dokumentih bodite pozorni, da uporabite referenco iz skupne knjižnice UMAR, sicer lahko pride do podvajanja zapisov v bibliografiji. 
+3. Potem se vam bo odprlo iskalno okence, kamor lahko začnete vpisovati del **naslova**, **avtorjev** ali **letnice** reference, ki jo iščete, in na seznamu se vam bodo prikazale reference, ki ustrezajo iskalnemu pogoju. Pri delu v skupnih dokumentih bodite pozorni, da vedno iščete reference iz skupne knjižnice UMAR, sicer lahko pride do podvajanja zapisov v bibliografiji. 
 
 
 ```{r, echo = FALSE}
@@ -197,12 +208,11 @@ knitr::include_graphics("../images/zotero7.png")
 
 ![](../images/zotero8.png)
 
-kjer ravno tako lahko iščete reference, hkrati pa lahko še dodatno prilagodite citat.
-
+kjer ravno tako lahko iščete reference, hkrati pa lahko še dodatno prilagodite citat.  
 
 ![](../images/zotero9.png)
 
-5. S klikom na gumb _"Show editor"_ spodaj levo lahko vidite kako bo zgledala vaša navedba vira, ki ji lahko dodate besedilo pred ali po, ali pa stran oz. poglavje. 
+5. S klikom na gumb _"Show editor"_ spodaj levo lahko vidite kako bo zgledala vaša navedba vira, ki ji lahko dodate besedilo pred ali za citatom v besedilu, ali pa stran oz. poglavje. 
 
 ![](../images/zotero10.png)
 
@@ -211,28 +221,78 @@ kjer ravno tako lahko iščete reference, hkrati pa lahko še dodatno prilagodit
 
 ![](../images/zotero11.png)
 
-_To je to!_
+_To je to ;)_
 
 _Reference in bibliografija se vse samodejno posodabljajo vsakič, ko vnesete novo referenco. S klikom na gumb "Refresh" pa lahko posodobite stanje kadar želite._
 
 
+
+\vspace{12pt}
+
+-------------------------------------------------------
+Pozor!
+
+\vspace{4pt}
+
+Delo s skupno knjižnico vsem olajša delo, saj tako ni potrebe, da vsak ureja vnose za dokumente, ki se pogosto citirajo v različnih publikacijah. 
+
+\vspace{4pt}
+
+Hkrati pa z vsakim dokumentom, ki ga vnesete v skupno knjižnico, prevzemate odgovornost, da je vnos res pravilen in popolno urejen. Za pomoč pri zagotavljanju pravilnih referenc, imate v Prilogi B seznam polj, ki so potrebna za pravilno citiranje različnih tipov virov. 
+
+
+-------------------------------------------------------
+
+
+
+
 \newpage
 
+# Priloga: Pravilen vnos polj v Zoteru   {-}
 
-# Priloga A: Vnos posameznih polj   {-}
+Celoten seznam vseh možnih vrst virov, njihovega pravilnega navajanja med besedilom in v seznamu literature po UMAR-jevem hišnem stilu ter kako to narediti v Zoteru, je v dokumentu `CITIRANJE - UMAR STIL V ZOTERU.docx`, ki ga najdete na Teamsih. 
+
+V praksi boste najbolj pogoste reference vnašali kot _knjigo_ (_Book_) ali _strokovni članek_ (_Journal Article_), potem pa veliko večino ostalih kot _poročilo_ (_Report_), ki je nekakšna bolj generična izbira (in pokriva tudi večino naših publikacij). Če se držite načela, da vnesete vse podatke o viru, ki jih imate, bi to moralo praviloma rezultirati v pravilnem citiranju. 
+
+Spodaj je seznam obveznih polj za najbolj pogoste vrste virov. Če gre za elektronski vir, je potrebno dodati tudi polje `url`. 
+
+V tabeli na naslednji strani pa so opisana posamezna polja in posebnosti vnosa vanje. 
+
+\begin{table}[ht]
+\caption{\textbf{Najbolj pogoste reference}}
+
+\centering
+\begin{tabular}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{0.2\textwidth}p{.55\textwidth}}
+
+\hline
+Tip gradiva & Vrsta vnosa & Obvezna polja  \\
+\hline
+
+knjiga z enim ali več avtorji/uredniki & knjiga& naslov, avtor/urednik, datum, izdajatelj, kraj\\
+\hline
+članek v tiskani reviji & strokovni članek & naslov, avtor, publikacija, letnik, številka, strani, datum\\
+\hline
+Članek, ki je hkrati sam po sebi  strokovna revija/publikacija & poročilo & naslov, avtor (="UMAR"), številka poročila (=letnik in številka), kraj, ustanova, datum \\
+\hline
+avtorski članek v UMAR reviji oz. publikaciji &   poročilo & naslov, avtor, številka poročila ( = letnik in številka), vrsta poročila ( = "delovni zvezek"), kraj, ustanova, datum\\
+\hline
+
+\end{tabular}
+\end{table}
+
 \renewcommand{\arraystretch}{1.2}
-
 \begin{table}[h]
+\caption{\textbf{Vnos posameznih polj}}
+
 \centering
 \begin{tabular}{>{\raggedright\arraybackslash}p{0.25\textwidth}>{\raggedright\arraybackslash}p{.75\textwidth}}
 
 \hline
 Ime polja & Posebnosti \\
 \hline
-
-Vrsta vnosa & Izbira iz menija. Najbolj običajne opcije so: strokovni članek, knjiga, poročilo. Od izbire je odvisno katera ostala polja so na voljo in kako bo referenca zapisana v bibliografiji. Glej Prilogo B za podrobnosti za posamezne vrste referenc. \\
+Vrsta vnosa & Izbira iz menija. Najbolj običajne opcije so: strokovni članek, knjiga, poročilo. Od izbire je odvisno katera ostala polja so na voljo in kako bo referenca zapisana v bibliografiji. \\
 \hline
-Avtor (...) & S klikom na puščico na levi lahko izbiramo med različnimi opcijami: avtor, urednik, ... Najprej vnesete priimek, nato vejico in ime. Lahko vnesete tudi priimek pritisnete tabulator in nato ime. S klikom na siv plus na desni strani se odpre nova vrstica za dodatne avtorje/urednike. \\
+Avtor (...) & S klikom na puščico na levi lahko izbiramo med različnimi opcijami: avtor, urednik, ... Najprej vnesete priimek, nato vejico in ime. Lahko vnesete tudi priimek pritisnete tabulator in nato ime. S klikom na siv plus na desni strani se odpre nova vrstica za dodatne avtorje/urednike. V primeru, da avtorja ni, pišemo ime ustanove kot kratico: "SURS", "UMAR", itd.  \\
 \hline
 Povzetek & Povzetek (abstract) se lahko avtomatično prenese pri uvozu reference. Ni relevantno za citiranje. \\
 \hline
@@ -258,7 +318,7 @@ Kraj & Se nanaša na izdajatelja (založnika) ali ustanovo.\\
 \hline
 Izdajatelj & Izdajatelj oz. založnik \\
 \hline
-Ustanova & Ustanova, ki je izdala publikacijo ali organizirala dogodek\\
+Ustanova & Ustanova, ki je izdala publikacijo ali organizirala dogodek. V primeru UMAR-a pišemo "Urad za makroekonomske analize in razvoj RS"\\
 \hline
 Vrsta & Pri rokopisih: "neobjavljeno", pri predstavitvah: "konferenca" ali "okrogla miza" \\
 \hline
@@ -268,9 +328,11 @@ Dodatno & Pri predstavitvah: ime organizatorja oziroma institucije \\
 \end{tabular}
 \end{table}
 
-\newpage
-# Priloga B: Obvezna polja za pravilen vnos referenc   {-}
 
+
+
+
+```{r, eval = FALSE, echo = FALSE}
 \begin{table}[ht]
 \caption{Knjige in e-knjige}
 
@@ -437,7 +499,7 @@ konference, okrogle mize, dogodki & predstavitev & naslov, predstavitelj, (vrsta
 \end{tabular}
 \end{table}
 
-
+```
 
 \newpage
 \newpage
