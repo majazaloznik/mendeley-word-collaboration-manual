@@ -60,3 +60,14 @@ Vprašanja za Marto:
 * v besedilu je do 5 avtorjev napisanih s priimki, 6 ali več pa idr.
 * v bibliografiji jih do 7 izpiše vse, potem pa uporabi samo prvih 6 in zadnjega, vmes pa ...
 
+
+# 25.8.
+
+Še popravki:
+
+* Vejica ven pri pravnih sodbah
+* številka ("št.") ven pri descriptionih za reporte (ostane samo pri sodbah in uradnem listu)
+* popravljen vrstni red v bibliografiji, da poleg imena, letnice in naslova, upošteva tudi volume, issue in številko (reporta). 
+
+
+

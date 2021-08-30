@@ -13,7 +13,7 @@
     </author>
     <category citation-format="author-date"/>
     <category field="generic-base"/>
-    <updated>2021-08-30T15:16:41+00:00</updated>
+    <updated>2021-08-30T15:29:52+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <macro name="container-contributors-booklike">
@@ -427,7 +427,7 @@
       <else-if variable="title">
         <choose>
           <if variable="version" type="book" match="all">
-            <text variable="title"/>
+            <text variable="title" font-style="italic"/>
           </if>
           <else-if variable="reviewed-author reviewed-title" type="review review-book" match="any">
             <choose>
@@ -445,6 +445,9 @@
           </else-if>
           <else-if type="post post-weblog webpage" variable="container-title" match="any">
             <text variable="title"/>
+          </else-if>
+          <else-if type="book legislation" match="any">
+            <text variable="title" font-style="italic"/>
           </else-if>
           <else>
             <text variable="title" font-style="normal"/>
@@ -1062,7 +1065,7 @@
         <else>
           <group>
             <text term="volume" form="short" plural="true" text-case="capitalize-first" suffix=" "/>
-            <number variable="number-of-volumes" form="numeric" prefix="1&#8211;"/>
+            <number variable="number-of-volumes" form="numeric" prefix="1–"/>
           </group>
         </else>
       </choose>
@@ -1435,3 +1438,4 @@
     </layout>
   </bibliography>
 </style>
+
