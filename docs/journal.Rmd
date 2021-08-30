@@ -28,3 +28,35 @@ Konferenca: note za ime ustanove, ki jo organizira
 Sicer pa je v [Zotero/styles](https://www.zotero.org/styles?q=umar)
 
 23.6. sprejet  [pull request](https://github.com/citation-style-language/styles/pull/5520)
+
+# 16.8.
+
+A sem jest ta csl delala doma, zakaj ga nimam tukaj na računalniku?
+
+# 23.8.
+
+OK, popravljam csl fajl.
+
+Za to je fajn seznam polj in imen med zoterom in csl shemo [tukaj](https://aurimasv.github.io/z2csl/typeMap.xml)
+
+Potem [tukajle](https://github.com/citation-style-language/locales/blob/master/locales-sl-SI.xml) so slovenski prevodi. 
+
+Popravila v v2:
+
+* format datuma v `issued` je popravljen, da sta dan in mesec prav obrnjena
+* format datuma v `accessed` je numeric, da ni problema s sklanjanjem
+* term `issue` (ki je številka) je zdaj lowercase, da ne piše "Št." ampak "št."
+* v legislation je bil simbol za `section`, sem ga vrgla ven
+* editor translator text-case v lowercase (ur.)
+* doi povozi url, kar je OK, se strinja Marta
+* dodala vejico pred vrsto poročila (glej npr. EK 2021) in popravila kapitalizacijo. 
+* vnos zakonov in drugih stvari iz uradnega lista: v polje "Public Law Number" dodaš smao številko npr. 47/2021 in v bibliografiji se izpiše "Ur. l. RS, št. 47/2021" 
+
+* za "pridobljeno 12.2.2021" ni več vejice pred "s https..."
+* dodano dvopičje za "V: zborniku.."
+
+Vprašanja za Marto:
+
+* v besedilu je do 5 avtorjev napisanih s priimki, 6 ali več pa idr.
+* v bibliografiji jih do 7 izpiše vse, potem pa uporabi samo prvih 6 in zadnjega, vmes pa ...
+

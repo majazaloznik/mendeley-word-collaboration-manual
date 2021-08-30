@@ -106,13 +106,13 @@ Ob prvi uporabi Zotera ga morate povezati z vašim računom in nastaviti par nas
 
 1. Izberite _Edit/Preferences_ in nato zavihek _Sync_, kjer vnesete svoje uporabniško ime in geslo. 
 
-2. Nato izklopite sinhronizacijo celotnih datotek _Sync full-text content_ - to pomeni, da se shranjene .pdf ali druge datoteke ne bodo shranjevale na spletu, le na vašem računalniku. 
+2. Nato izklopite sinhronizacijo celotnih datotek _Sync attachment files_ za svojo in skupne knjižnice - to pomeni, da se shranjene .pdf ali druge datoteke ne bodo shranjevale na spletu, le na vašem računalniku. 
 
 ```{r, echo = FALSE}
 knitr::include_graphics("../images/zotero2.png")
 ```
 
-3. Na zavihku _Cite_ izberite stil citiranja. Na UMAR-ju uporabljamo hišni stil, ki ga ni med osnovnimi, ki jih imate na izbir. Zato ga morate najprej prenesti, tako da kliknete na _"Get additional styles"_ in ga potem poiskati, najlažje tako da iščete besedo "UMAR" in potem izberete _Urad RS za makroekonomske analize in razvoj (Slovenščina)_. 
+3. Na zavihku _Cite_ izberite stil citiranja. Na UMAR-ju uporabljamo hišni stil, ki ga ni med osnovnimi, ki jih imate na izbiro. Zato ga morate najprej prenesti, tako da kliknete na _"Get additional styles"_ in ga potem poiskati, najlažje tako da iščete besedo "UMAR" in potem izberete _Urad RS za makroekonomske analize in razvoj (Slovenščina)_. 
 
 Na istem zavihu tudi obkljukajte možnost "Include URLs of paper articles in references", saj je tudi to del hišnega stila. 
 
