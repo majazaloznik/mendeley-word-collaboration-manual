@@ -33,11 +33,15 @@ Sicer pa je v [Zotero/styles](https://www.zotero.org/styles?q=umar)
 
 A sem jest ta csl delala doma, zakaj ga nimam tukaj na računalniku?
 
+[contributing](https://github.com/citation-style-language/styles/blob/master/CONTRIBUTING.md) to the CSL repo. 
+
 # 23.8.
 
 OK, popravljam csl fajl.
 
 Za to je fajn seznam polj in imen med zoterom in csl shemo [tukaj](https://aurimasv.github.io/z2csl/typeMap.xml)
+
+Mendeley pa ima [visual editor](https://csl.mendeley.com/visualEditor/), ki je najboljša stvar ever. 
 
 Potem [tukajle](https://github.com/citation-style-language/locales/blob/master/locales-sl-SI.xml) so slovenski prevodi. 
 
@@ -70,4 +74,9 @@ Vprašanja za Marto:
 * popravljen vrstni red v bibliografiji, da poleg imena, letnice in naslova, upošteva tudi volume, issue in številko (reporta). 
 
 
+# 30.8.
+
+še popravki:
+
+naslov ni v italics, razen če kej knjiga ali zakon
 
