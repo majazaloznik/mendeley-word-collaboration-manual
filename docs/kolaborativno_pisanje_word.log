@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.6.8)  14 JUN 2021 16:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.9.2)  2 SEP 2021 12:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **kolaborativno_pisanje_word.tex
 (./kolaborativno_pisanje_word.tex
-LaTeX2e <2021-06-01>
-L3 programming layer <2021-06-01>
+LaTeX2e <2021-06-01> patch level 1
+L3 programming layer <2021-08-27>
 (c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/article.c
 ls
 Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
@@ -423,7 +423,7 @@ rs
 )
 (c:/Users/mzaloznik/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3ba
 ckend-pdftex.def
-File: l3backend-pdftex.def 2021-05-07 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2021-08-04 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count281
 \l__pdf_internal_box=\box52
 ) (./kolaborativno_pisanje_word.aux)
@@ -629,18 +629,6 @@ File: ../images/onedrive04.png Graphic file (type png)
 Package pdftex.def Info: ../images/onedrive04.png  used on input line 161.
 (pdftex.def)             Requested size: 199.17299pt x 108.74171pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--183
-[]\T1/lmr/m/n/10.95 Lejla [][]$Faji¢ / UMAR / GOV @ SVN$[][], Rotija [][]$Kmet 
--[] Zupan£i£ / UMAR / GOV @ SVN$[][],
- []
-
-
-Underfull \hbox (badness 4886) in paragraph at lines 175--183
-\T1/lmr/m/n/10.95 Marta [][]$Gregor£i£ / UMAR / GOV @ SVN$[][], Mat-evº [][]$Hr
-ibernik / UMAR / GOV @ SVN$[][],
- []
-
-
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
@@ -655,10 +643,10 @@ ged.
 (rerunfilecheck)             Checksum: 1E2CE110994C91FBEFA3D5CF85F34B46;282.
  ) 
 Here is how much of TeX's memory you used:
- 10338 strings out of 480496
- 153911 string characters out of 5897570
- 472340 words of memory out of 5000000
- 27831 multiletter control sequences out of 15000+600000
+ 10341 strings out of 480559
+ 153980 string characters out of 5901445
+ 469114 words of memory out of 5000000
+ 27769 multiletter control sequences out of 15000+600000
  449570 words of font info for 63 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  60i,11n,66p,344b,332s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -671,10 +659,10 @@ f-dist/fonts/type1/public/lm/lmr8.pfb><c:/Users/mzaloznik/AppData/Roaming/TinyT
 eX/texmf-dist/fonts/type1/public/lm/lmr9.pfb><c:/Users/mzaloznik/AppData/Roamin
 g/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb><c:/Users/mzaloznik/AppDa
 ta/Roaming/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on kolaborativno_pisanje_word.pdf (3 pages, 241904 bytes).
+Output written on kolaborativno_pisanje_word.pdf (3 pages, 240390 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
+ 85 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
  7 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
