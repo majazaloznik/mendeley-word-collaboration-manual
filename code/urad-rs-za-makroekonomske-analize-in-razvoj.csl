@@ -678,23 +678,44 @@
     </choose>
   </macro>
   <macro name="title-and-descriptions">
-    <group delimiter=", ">
-      <text macro="title"/>
-      <choose>
-        <if variable="title interviewer" type="interview" match="any">
-          <group delimiter=" ">
-            <text macro="description"/>
-            <text macro="format"/>
-          </group>
-        </if>
-        <else>
-          <group delimiter=" ">
-            <text macro="format"/>
-            <text macro="description"/>
-          </group>
-        </else>
-      </choose>
-    </group>
+    <choose>
+      <if type="report">
+        <choose>
+          <if variable="number page" match="none">
+            <group delimiter=" ">
+              <text macro="title"/>
+              <text macro="format"/>
+            </group>
+          </if>
+          <else>
+          <group delimiter=", ">
+              <text macro="title"/>
+              <text macro="format"/>
+              <text macro="description"/>
+            </group>
+          </else>
+        </choose>
+      </if>
+      <else>
+        <group delimiter=", ">
+          <text macro="title"/>
+          <choose>
+            <if variable="title interviewer" type="interview" match="any">
+              <group delimiter=" ">
+                <text macro="description"/>
+                <text macro="format"/>
+              </group>
+            </if>
+            <else>
+              <group delimiter=" ">
+                <text macro="format"/>
+                <text macro="description"/>
+              </group>
+            </else>
+          </choose>
+        </group>
+      </else>
+    </choose>
   </macro>
   <macro name="archive">
     <group delimiter=". ">

@@ -107,3 +107,7 @@ Umaknila pull request
 Marta ma še eno foro: pri volume-issue članku, ki nima volume-a, noče imeti vejice, ker je pred oklepajem.. OK, to sem zdej popravila. če je samo volume al pa samo issue, nima oklepajev, ločiš jih pa po italics. 
 
 commit. 
+
+OK, rešila vejice med report typom v oglatih oklepajih. Izjemo naredila, če imaš report in nimaš numberja in page, imaš samo report type, potem ni vejice. Glupo je, če daš strani zraven, ker pol so vejice spet nazaj, ampak kdo bo dal strani zraven. Lahko pa jih tudi skinem, če Marta reče, da je OK. 
+
+commit. 
