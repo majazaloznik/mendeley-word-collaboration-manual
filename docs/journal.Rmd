@@ -89,7 +89,12 @@ Nataša misli, da se je to zgodilo ko je imela izklošljeno zaklepanje track cha
 Internet pravi, da se take stvari očitno pojavljajo kadar se uporabljajo citiranja v skupnih dokumentih npr. [tukaj](https://answers.microsoft.com/en-us/msoffice/forum/all/ms-word-text-deleted-and-replaced-by-obj-boxes/b4f577dc-3780-4305-a28d-3c13f27d638c?page=2) ali pa [tukaj](https://answers.microsoft.com/en-us/msoffice/forum/all/onedrive-for-business-word-for-mac-field-codes/83d18da5-bc28-4f18-a743-219c82421bbc), ampak v obeh primerih ni rešitve, ampak bolj v smislu ne uporabljat citiranja al pa delaj lokalno. Nek predlog je bil, da je to lahko povezano z Mac-i, ampak ni prepričljivo. [Tukaj](https://answers.microsoft.com/en-us/msoffice/forum/all/little-obj-box-deleting-text-in-word/a33ada95-9e06-4dd9-b831-797706a921e9) tudi podobno. 
 
 
-21.9.2021
+# 21.9.2021
 
 popravila še ene druge urednike na lowercase.. 
 pa Marti niso všeč oglati oklepaji okol descriptionov alal podatkovni portal ipd .čeprav to je APA, recimo [tukaj](https://blog.apastyle.org/apastyle/2013/12/how-to-cite-a-data-set-in-apa-style.html). al pa [tukaj](https://aut.ac.nz.libguides.com/APA7th/datasets)
+
+# 22.9.21
+
+OK, v oglatih oklepajih naredimo male začetnice, Marta in Špela tudi pravita, da je tko bolš. V oglatih se izpiše samo kadar je samo type. ni pa tudi report number. 
+
