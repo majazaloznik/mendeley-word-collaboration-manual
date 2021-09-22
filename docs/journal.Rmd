@@ -98,3 +98,12 @@ pa Marti niso všeč oglati oklepaji okol descriptionov alal podatkovni portal i
 
 OK, v oglatih oklepajih naredimo male začetnice, Marta in Špela tudi pravita, da je tko bolš. V oglatih se izpiše samo kadar je samo type. ni pa tudi report number. 
 
+Pull request.
+
+Ampak ne: zdej je problem, da je vejica pred oklepajem, tega se ne dela. ampak ta vejica med descriptionom in titlom je tam tudi kadar je description nekaj drugega, torej ne bracketed.. skratka gre za delimiter, ne vem, če ga znam dat ven. Slovnično pravilnejša alternativa bi bila pika. Če ne pogruntam kako jih ločit, bom dala pač piko i guess. 
+
+Umaknila pull request
+
+Marta ma še eno foro: pri volume-issue članku, ki nima volume-a, noče imeti vejice, ker je pred oklepajem.. OK, to sem zdej popravila. če je samo volume al pa samo issue, nima oklepajev, ločiš jih pa po italics. 
+
+commit. 
