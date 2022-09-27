@@ -111,3 +111,11 @@ commit.
 OK, rešila vejice med report typom v oglatih oklepajih. Izjemo naredila, če imaš report in nimaš numberja in page, imaš samo report type, potem ni vejice. Glupo je, če daš strani zraven, ker pol so vejice spet nazaj, ampak kdo bo dal strani zraven. Lahko pa jih tudi skinem, če Marta reče, da je OK. 
 
 commit. 
+
+submit new version.
+
+#23.9.21
+
+odprla tabelo kratice.xlsx s seznamom kratic ipd, ki jih je treba dorečt
+
+z Matejo eno uro popravljala njene vnose, predvsem zato, ker jih je citirala iz My Library, ne  UMAR, in potem ne delajo popravki, če si kopijo naredil, moraš pač oboje popravit.. 
